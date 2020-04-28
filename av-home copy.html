@@ -1,0 +1,164 @@
+<html>
+
+<head>
+    <title>Austin Visuals</title>
+</head>
+
+<body>
+    <div class="app">
+
+
+        <div class="container">
+            <div class="inner">
+                <div class="box">Home</div>
+            </div>
+
+            <a style="flex:1" href="av-visuals.html">
+                <div class="inner">
+                    <div class="box">Visuals</div>
+                </div>
+            </a>
+            <a style="flex:1" href="av-merch.html">
+                <div class="inner">
+                    <div class="box">Merch</div>
+                </div>
+            </a>
+            <a style="flex:1" href="av-contact.html">
+                <div class="inner">
+                    <div class="box">Contact</div>
+                </div>
+            </a>
+
+        </div>
+
+        <div class="title">Home</div>
+
+        <div class="panel">
+            <div class="panel-top"> WELCOME TO </div>
+            <div class="panel-content"><video src="videos/austin visuals 2.mp4" autoplay loop muted>
+
+                </video></div>
+
+        </div>
+    </div>
+</body>
+<style>
+    html,
+    body {
+        background: black;
+        margin: 0;
+        height: 100%;
+        padding: 0;
+    }
+
+    .app {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+
+        background: black;
+        color: #2b08f1;
+        padding: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+
+
+
+
+    }
+
+    .panel {
+
+        border-radius: 5px;
+        flex: 1;
+        background: #484c55;
+        padding-bottom: 55px;
+        margin-bottom: 15px;
+        padding: 15px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-right: 45px;
+        margin-left: 45px;
+
+    }
+
+    .panel-top {
+        height: 45px;
+        display: flex;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-weight: lighter;
+        align-items: center;
+        padding: 0px 15px;
+        font-size: 12pt;
+        color: #fff;
+        border-bottom: solid 6px #000000;
+        border-top: solid 6px black;
+        border-left: solid 6px black;
+        border-right: solid 6px black;
+        justify-content: center;
+    }
+
+    .panel video {
+        width: 100%;
+
+
+
+    }
+
+    .panel-content {
+        display: flex;
+        justify-content: center;
+
+        flex: 1;
+    }
+
+    .box {
+        color: white;
+        font-size: 15pt;
+        border: solid 2px #fff;
+        background: #000000;
+        padding: 7px 15px
+    }
+
+    .inner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 17pt;
+        color: #fff;
+        flex: 1;
+        height: 50px;
+        cursor: pointer;
+        transition: all .3s ease;
+        list-style: none;
+
+    }
+
+    .box:hover {
+        background: #008fd1ce;
+        transform: scale(1.01, 1.03)
+    }
+
+    .title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 50pt;
+        color: white;
+        padding: 25px;
+        min-height: 100px;
+        
+
+
+    }
+</style>
+
+</html>

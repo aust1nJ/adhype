@@ -1,0 +1,252 @@
+<html>
+
+<head>
+
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <title>Contact Info</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+</head>
+
+<style>
+  
+
+    html,
+    body {
+        font-family: 'Raleway';
+        margin: 0;
+        padding: 0;
+        background: black;
+        /* hi im a note */
+    }
+
+    .container {
+
+        display: flex;
+        align-items: center;
+        padding: 50px;
+        box-sizing: border-box;
+        position: relative;
+        flex-wrap: wrap;
+    }
+
+    .title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 50pt;
+        color: white;
+        padding: 25px;
+
+
+    }
+
+    .panel {
+        max-width: 850px;
+        border-radius: 5px;
+        flex: 1;
+        background: #484c55;
+        padding-bottom: 55px;
+        margin-bottom: 15px;
+        padding: 15px;
+       margin-left: 535px;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .panel:last-of-type {
+        margin-right: 0;
+    }
+
+    .panel-top {
+        height: 45px;
+        display: flex;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-weight: lighter;
+        align-items: center;
+        padding: 0px 15px;
+        font-size: 12pt;
+        color: #fff;
+        border-bottom: solid 6px #000000;
+        border-top: solid 6px black;
+        border-left: solid 6px black;
+        border-right: solid 6px black;
+        justify-content: center;
+    }
+
+    .panel-content {
+        padding: 15px;
+    }
+
+    .line-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        cursor: pointer;
+
+    }
+
+    .line-item:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .line-item .circle {
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+        background: #ffffff30;
+        margin-right: 10px;
+        transition: .3s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25pt;
+        color: #484c55
+    }
+
+    .line-item .lines {
+        display: flex;
+        flex-direction: column;
+        height: 50px;
+        flex: 1;
+      
+    }
+
+    .line-item .lines .line {
+        background: #ffffff30;
+        flex: 1;
+        transition: all .3s ease;
+        margin-bottom: 10px;
+    }
+
+    .line-item .lines .line:last-of-type {
+        margin-bottom: 0px;
+    }
+
+    .line-item:hover .circle {
+        background: rgb(120, 255, 153);
+    }
+
+    .box {
+        color: white;
+        font-size: 15pt;
+        border: solid 2px #fff;
+        background: #000000;
+        padding: 7px 15px
+    }
+
+    .inner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 17pt;
+        color: #fff;
+        flex: 1;
+        height: 50px;
+        cursor: pointer;
+        transition: all .3s ease;
+
+    }
+
+    .box:hover {
+        background: #008fd1ce;
+        transform: scale(1.01, 1.03)
+    }
+
+    @media(max-width:828px) {
+        .panel {
+            margin-right: 0px;
+        }
+
+        .app {
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+    }
+</style>
+
+<body>
+<div class="app">
+
+
+    <div class="container">
+        <a style="flex:1" href="av-home.html">
+            <div class="inner">
+                <div class="box">Home</div>
+            </div>
+        </a>
+
+        <a style="flex:1" href="av-visuals.html">
+            <div class="inner">
+                <div class="box">Visuals</div>
+            </div>
+        </a>
+        <a style="flex:1" href="av-merch.html"> 
+            <div class="inner">
+                <div class="box">Merch</div>
+            </div>
+        </a>
+        <div class="inner">
+            <div class="box">Contact</div>
+        </div>
+
+    </div>
+
+    <div class="title">Contact</div>
+
+    <div class="panel">
+
+        <div class="panel-top">How to get in contact with Austin Visuals!</div>
+        <div class="panel-content">
+
+            <div class="line-item">
+                <div class="circle">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+
+                <div class="lines">
+                    <div class="line">Phone</div>
+                    <div class="line">714-655-9220</div>
+                    
+                </div>
+            </div>
+
+
+            <div class="line-item">
+                <div class="circle">
+                    <i class="fas fa-envelope-square"></i>
+                </div>
+                <div class="lines">
+                    <div class="line">Email</div>
+                    <div class="line">austin@visuals.adhype.com</div>
+                    
+                </div>
+            </div>
+            <div class="line-item">
+                <a href="https://instagram.com/austin.visuals_">
+                <div class="circle">
+                    <i class="fab fa-instagram-square"></i>
+                </a>
+                </div>
+               
+                <div class="lines">
+                  
+                    <div class="line">Instagram</div>
+                    <div class="line">austin.visuals_</div>
+              
+                </div>
+           
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>
